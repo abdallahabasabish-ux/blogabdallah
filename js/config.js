@@ -42,21 +42,21 @@
 
     /* حسابات اجتماعية — املأ ما تريد عرضه فقط؛ الفارغ لا يظهر إطلاقًا */
     social: {
-      facebook: "",
-      linkedin: "",
-      telegram: "",
+      facebook: "https://www.facebook.com/Abdallah.G.designer",
+      linkedin: "https://www.linkedin.com/in/abdallah-abas-16601a258",
+      telegram: "https://t.me/abdallahabasmo",
       github: ""
     },
 
     /* Firebase — نفس مشروع الموقع الرئيسي (abdallahsst).
        انسخ القيم من Firebase Console → Project settings → Your apps */
     firebase: {
-      apiKey: "PASTE_FIREBASE_API_KEY",
+      apiKey: "AIzaSyDg-oSbA_UdlzMS8HZGE0pHtr_zWg5rrXY",
       authDomain: "abdallahsst.firebaseapp.com",
       projectId: "abdallahsst",
       storageBucket: "abdallahsst.appspot.com",
       messagingSenderId: "PASTE_SENDER_ID",
-      appId: "PASTE_APP_ID"
+      appId: "1:1011946194938:web:6c71030a6da4074b68c643"
     },
 
     /* التعليقات: Email/Password عبر Firebase Auth + Firestore
