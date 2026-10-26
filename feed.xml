@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>مدونة ABDALLAH ABAS</title>
+    <link>https://blog.abdallahabas.com/</link>
+    <description>مقالات عملية في الربح من الويب والسيو وبناء المواقع</description>
+    <language>ar</language>
+    <atom:link href="https://blog.abdallahabas.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>الطريق إلى ادسنس (1): الأساسات التي تُبنى قبل أول مقال</title>
+      <link>https://blog.abdallahabas.com/posts/adsense-road-01-foundations.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/adsense-road-01-foundations.html</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
+      <description>الجزء الأول من سلسلة الطريق إلى ادسنس: القرارات السبعة التي تُتخذ قبل كتابة أول مقال — النيتش، الدومين، هيكل الصفحات، التنقل، الأداء، الفهرسة، والصفحات القانونية — مع قائمة فحص نهائية.</description>
+    </item>
+    <item>
+      <title>الطريق إلى ادسنس (2): خطة أول 30 مقالًا بلا حشو وبلا تكرار</title>
+      <link>https://blog.abdallahabas.com/posts/adsense-road-02-content-plan.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/adsense-road-02-content-plan.html</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
+      <description>الجزء الثاني من سلسلة الطريق إلى ادسنس: خطة عملية لأول ثلاثين مقالًا — مجموعات المحتوى، توزيع نية البحث، جدول النشر الواقعي، وخطة الروابط الداخلية من اليوم الأول — مع قائمة ما لا تكتبه إطلاقًا في هذه المرحلة.</description>
+    </item>
+    <item>
+      <title>قائمة تحقق ادسنس: 14 نقطة راجعها قبل أن تضغط إرسال الطلب</title>
+      <link>https://blog.abdallahabas.com/posts/adsense-approval-checklist.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/adsense-approval-checklist.html</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>قبل أن تطلب قبول ادسنس في موقعك، راجع هذه النقاط الاربع عشرة بالترتيب: المحتوى، الصفحات القانونية، التنقل، السرعة، والفهرسة — لتدخل المراجعة من أقوى وضع ممكن.</description>
+    </item>
+    <item>
+      <title>Search Console من الصفر: أول 7 خطوات بعد إضافة موقعك</title>
+      <link>https://blog.abdallahabas.com/posts/search-console-first-steps.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/search-console-first-steps.html</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 GMT</pubDate>
+      <description>دليل عملي لأول أسبوع مع Google Search Console: إثبات الملكية، رفع خريطة الموقع، فحص الفهرسة، وقراءة تقرير الأداء — بخطوات مرتبة لا تحتاج خبرة تقنية.</description>
+    </item>
+    <item>
+      <title>Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟</title>
+      <link>https://blog.abdallahabas.com/posts/core-web-vitals-speed.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/core-web-vitals-speed.html</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description>شرح مبسط لمؤشرات Core Web Vitals الثلاثة (LCP وINP وCLS) بأرقامها الرسمية، ولماذا بطء موقعك يقتل ترتيبه وأرباحه — مع أول 6 إصلاحات عملية بأثر حقيقي.</description>
+    </item>
+    <item>
+      <title>خطة محتوى شهرية بسيطة: كيف تنتج 8 مقالات شهريًا دون أن تحترق</title>
+      <link>https://blog.abdallahabas.com/posts/monthly-content-plan.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/monthly-content-plan.html</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+      <description>نظام عملي لتخطيط محتوى مدونتك شهريًا: من قائمة الأفكار إلى تقويم نشر مرن، مع طريقة توظيف الكلمات المفتاحية من Search Console — دون حرق نفسي ودون فريق.</description>
+    </item>
+    <item>
+      <title>أدوات مجانية يحتاجها كل صانع محتوى عربي (وتستخدمها من المتصفح مباشرة)</title>
+      <link>https://blog.abdallahabas.com/posts/free-tools-creators.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/posts/free-tools-creators.html</guid>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
+      <description>حزمة أدوات مجانية أستخدمها فعليًا في عملي اليومي: عداد كلمات، تنضيف نصوص، مولد روابط، تنسيق JSON، تحويل ألوان — كلها تعمل من المتصفح دون رفع ملفات أو اشتراكات.</description>
+    </item>
+  </channel>
+</rss>

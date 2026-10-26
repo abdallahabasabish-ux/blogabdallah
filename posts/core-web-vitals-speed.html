@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟ — ABDALLAH ABAS</title>
+<meta name="description" content="شرح مبسط لمؤشرات Core Web Vitals الثلاثة (LCP وINP وCLS) بأرقامها الرسمية، ولماذا بطء موقعك يقتل ترتيبه وأرباحه — مع أول 6 إصلاحات عملية بأثر حقيقي.">
+<link rel="canonical" href="https://blog.abdallahabas.com/posts/core-web-vitals-speed.html">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+<meta property="og:image" content="https://blog.abdallahabas.com/assets/images/articles/core-web-vitals-speed/cover.png">
+<meta property="og:image:alt" content="Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟ — ABDALLAH ABAS">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blog.abdallahabas.com/assets/images/articles/core-web-vitals-speed/cover.png">
+<meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟ — ABDALLAH ABAS">
+<meta property="og:description" content="شرح مبسط لمؤشرات Core Web Vitals الثلاثة (LCP وINP وCLS) بأرقامها الرسمية، ولماذا بطء موقعك يقتل ترتيبه وأرباحه — مع أول 6 إصلاحات عملية بأثر حقيقي.">
+<meta property="og:url" content="https://blog.abdallahabas.com/posts/core-web-vitals-speed.html">
+<meta property="og:site_name" content="ABDALLAH ABAS">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/theme.css">
+<script src="/js/theme.js"></script>
+<meta name="robots" content="index, follow">
+<link rel="alternate" hreflang="ar" href="https://blog.abdallahabas.com/posts/core-web-vitals-speed.html">
+<link rel="alternate" hreflang="en" href="https://blog.abdallahabas.com/en/posts/core-web-vitals-speed.html">
+<link rel="alternate" hreflang="x-default" href="https://blog.abdallahabas.com/posts/core-web-vitals-speed.html">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="article:published_time" content="2026-09-28T12:00:00+02:00">
+<meta property="article:modified_time" content="2026-09-28T12:00:00+02:00">
+<meta property="article:author" content="https://abdallahabas.com">
+<meta property="article:section" content="تطوير الويب">
+<meta property="article:tag" content="سرعة الموقع">
+<meta property="article:tag" content="Core Web Vitals">
+<meta property="article:tag" content="أداء الويب">
+<meta property="article:tag" content="PageSpeed">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟","description":"شرح مبسط لمؤشرات Core Web Vitals الثلاثة (LCP وINP وCLS) بأرقامها الرسمية، ولماذا بطء موقعك يقتل ترتيبه وأرباحه — مع أول 6 إصلاحات عملية بأثر حقيقي.","datePublished":"2026-09-28","dateModified":"2026-09-28","inLanguage":"ar","wordCount":523,"keywords":"سرعة الموقع, Core Web Vitals, أداء الويب, PageSpeed","articleSection":"تطوير الويب","author":{"@type":"Person","name":"ABDALLAH ABAS","url":"https://abdallahabas.com"},"publisher":{"@type":"Organization","name":"ABDALLAH ABAS","logo":{"@type":"ImageObject","url":"https://abdallahabas.com/assets/images/logo.svg"}},"mainEntityOfPage":"https://blog.abdallahabas.com/posts/core-web-vitals-speed.html","url":"https://blog.abdallahabas.com/posts/core-web-vitals-speed.html","image":["https://blog.abdallahabas.com/assets/images/articles/core-web-vitals-speed/cover.png"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":"https://blog.abdallahabas.com/"},{"@type":"ListItem","position":2,"name":"تطوير الويب","item":"https://blog.abdallahabas.com/category.html?c=web-dev"},{"@type":"ListItem","position":3,"name":"Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟","item":"https://blog.abdallahabas.com/posts/core-web-vitals-speed.html"}]}</script>
+</head>
+<body data-page="post" data-post="core-web-vitals-speed" data-lang="ar">
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<div class="read-progress" id="readProgress" aria-hidden="true"></div>
+
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="/index.html" aria-label="ABDALLAH ABAS — الصفحة الرئيسية للمدونة">
+      <img class="brand-mark" src="/assets/images/logo.svg" alt="" width="37" height="37" aria-hidden="true">
+      <span class="brand-txt"><b>ABDALLAH ABAS</b><i>المدونة</i></span>
+    </a>
+    <nav class="nav" id="siteNav" aria-label="التنقل الرئيسي">
+      <a href="/index.html" data-nav="home">الرئيسية</a>
+      <a href="/archive.html" data-nav="archive">كل المقالات</a>
+      <div class="nav-drop">
+        <button type="button" class="nav-drop-btn" id="catsBtn" aria-expanded="false" aria-haspopup="true">التصنيفات <svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button>
+        <div class="nav-menu" id="catsMenu" role="menu">
+          <a role="menuitem" href="/category.html?c=adsense"><svg class="ic" aria-hidden="true"><use href="#i-flame"/></svg>ادسنس وأرباح جوجل<span class="cnt" data-cat="adsense"></span></a>
+          <a role="menuitem" href="/category.html?c=seo"><svg class="ic" aria-hidden="true"><use href="#i-chart"/></svg>السيو والفهرسة<span class="cnt" data-cat="seo"></span></a>
+          <a role="menuitem" href="/category.html?c=web-dev"><svg class="ic" aria-hidden="true"><use href="#i-code"/></svg>تطوير الويب<span class="cnt" data-cat="web-dev"></span></a>
+          <a role="menuitem" href="/category.html?c=marketing"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>التسويق الرقمي<span class="cnt" data-cat="marketing"></span></a>
+          <a role="menuitem" href="/category.html?c=tools"><svg class="ic" aria-hidden="true"><use href="#i-wrench"/></svg>أدوات مجانية<span class="cnt" data-cat="tools"></span></a>
+        </div>
+      </div>
+      <a href="/about.html" data-nav="about">عن المدونة</a>
+      <a href="/contact.html" class="btn btn-primary btn-sm" data-nav="contact">اطلب خدمة</a>
+    </nav>
+    <div class="head-tools">
+      <button type="button" class="tool-btn" id="searchBtn" aria-label="بحث في المدونة" aria-haspopup="dialog"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></button>
+      <button type="button" class="tool-btn" id="themeBtn" aria-label="تبديل المظهر (ليلي/نهاري)" aria-pressed="false"><svg class="ic ic-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="ic ic-moon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+      <a class="lang-tag" href="/en/index.html" hreflang="en" lang="en" aria-label="Switch to English">EN</a>
+      <button type="button" class="tool-btn burger" id="navBtn" aria-expanded="false" aria-controls="siteNav" aria-label="فتح القائمة"><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <article class="art wrap">
+
+    <header class="art-head" id="artHead"><nav class="crumbs" aria-label="مسار التنقل"><a href="/">الرئيسية</a><svg class="ic ic-flip" aria-hidden="true"><use href="#i-arrow"/></svg><a href="/category.html?c=web-dev">تطوير الويب</a><svg class="ic ic-flip" aria-hidden="true"><use href="#i-arrow"/></svg><span aria-current="page">Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟</span></nav><h1 id="artTitle">Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟</h1><div class="art-meta"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><time datetime="2026-09-28">٢٨ سبتمبر ٢٠٢٦</time></span><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>3 دقائق قراءة</span><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-doc"/></svg>523 كلمة</span></div></header>
+
+    <div class="art-cover cover-img-mode" id="artCover"><img class="art-cover-img" src="/assets/images/articles/core-web-vitals-speed/cover.png" alt="Core Web Vitals: ما الذي يقيسه جوجل فعليًا من سرعة موقعك؟" width="1200" height="675" fetchpriority="high"></div>
+
+    <div class="art-layout">
+      <div class="art-body prose" id="artContent"><p>&quot;موقعك بطيء&quot; جملة عامة لا تنفع في الإصلاح — جوجل أراد أن يجعلها قابلة للقياس فوضع ثلاثة مؤشرات معروفة باسم Core Web Vitals، وأصبحت جزءًا من إشارات تجربة الصفحة في الترتيب. في هذا المقال أفكك كل مؤشر: ماذا يقيس، وما الحد الجيد رسميًا، وما الإصلاح العملي الأقرب لك.</p>
+<h2 id="المؤشرات-الثلاثة-بالأرقام-الرسمية">المؤشرات الثلاثة بالأرقام الرسمية</h2>
+<div class="tbl-wrap"><table><thead><tr><th>المؤشر</th><th>ماذا يقيس</th><th>جيد</th><th>ضعيف</th></tr></thead><tbody><tr><td>LCP</td><td>متى يظهر أكبر عنصر مرئي</td><td>≤ 2.5 ثانية</td><td>&gt; 4 ثوانٍ</td></tr><tr><td>INP</td><td>استجابة الصفحة لأول تفاعل للمستخدم</td><td>≤ 200 مللي ثانية</td><td>&gt; 500 مللي ثانية</td></tr><tr><td>CLS</td><td>ثبات العناصر من التحرك المفاجئ</td><td>≤ 0.1</td><td>&gt; 0.25</td></tr></tbody></table></div>
+<p>هذه الأرقام من توثيق جوجل الرسمي، وتُقاس على مستخدمين حقيقيين (بيانات ميدانية) وليس اختبار مخبر فقط — وهذا الفرق مهم: موقعك قد يظهر ممتازًا في الاختبار ويخسر في الميدان لأن زوارك على شبكات أبطأ.</p>
+<h2 id="lcp-أكبر-شيء-يراه-الزائر">LCP: أكبر شيء يراه الزائر</h2>
+<p>غالبًا صورة الغلاف أو عنوان رئيسي. كل ما يؤخر ظهوره يقيد مؤشرك: خادم بطيء، صورة ضخمة غير مضغوطة، خطوط تحمّل متأخر، وسكربتات تحجب الرسم الأول. الإصلاحات الأعلى أثرًا بالترتيب:</p>
+<ol><li><strong>صغّر صورة الغلاف:</strong> صيغة WebP أو AVIF، عرض فعلي بحجم العرض المتوقع، وتحميل كسول لكل صورة ليست في أول شاشة.</li><li><strong>اجعل عنصر LCP أولوية تحميل:</strong> <code>&lt;link rel=&quot;preload&quot;&gt;</code> لصورة الغلاف تمنح المتصفح أمر البدء المبكر.</li><li><strong>قلّل السكربتات الحاجبة:</strong> كل سكربت JS في أول الشاشة بدون defer يؤجل رسم الصفحة — أجّل كل ما لا يلزم للعرض الأول.</li></ol>
+<h2 id="inp-الصفحة-تسمع-المستخدم">INP: الصفحة تسمع المستخدم؟</h2>
+<p>لما يضغط المستخدم زرًا أو رابطًا، كم تنتظر حتى يرى استجابة؟ الأعداء هنا: مهام جافاسكربت طويلة تحجز الخيط الرئيسي، ومستمعو أحداث ثقيلة. الحل المختصر: قسّم العمليات الكبيرة، أجّل الأكواد غير الضرورية للتفاعل الأول، ولا تشغّل مكتبات ضخمة لعمل يفعله عشرة أسطر.</p>
+<h2 id="cls-لا-تدع-الصفحة-تقفز">CLS: لا تدع الصفحة &quot;تقفز&quot;</h2>
+<p>الأسباب الكلاسيكية: صور بدون أبعاد محددة (width/height)، إعلانات أو ويدجت تُحقن فوق المحتوى، وخطوط تتبدل (font swap) بأحجام مختلفة. الحلول: حدد أبعاد كل صورة ووسائط، احفظ مساحة للوحدات الديناميكية مسبقًا، واستخدم <code>font-display: swap</code> مع قياسات خط احتياطي مقاربة.</p>
+<h2 id="ابدأ-بالقياس-لا-بالتخمين">ابدأ بالقياس لا بالتخمين</h2>
+<p>افتح <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer">PageSpeed Insights</a> وأدخل رابط موقعك: ستحصل على قسمين — &quot;بيانات الحقل&quot; (تجربة مستخدمين حقيقيين) و&quot;تشخيص المخبر&quot;. ركّز على الحقل أولاً؛ وإن كان موقعك جديدًا بلا بيانات كافية فاعتمد التشخيص كخط أساس، وتابع التحسن شهريًا.</p>
+<blockquote><p>قاعدة عملية: لا تصلح ما لم تقسه. أغلب &quot;تحسينات السرعة&quot; العشوائية تضيف تعقيدًا بلا مكسب — قياسك يخبرك أين المال حقًا.</p></blockquote>
+<h2 id="الأثر-في-الأرباح-بدون-مبالغة">الأثر في الأرباح (بدون مبالغة)</h2>
+<p>السرعة تؤثر على ثلاث جبهات: الترتيب (إشارة تجربة الصفحة)، ومعدل التحويل (الزائر الصبور قليل)، وتجربة الإعلانات نفسها (صفحة قافزة تدفع الزوار للإغلاق قبل أي نقرة). السرعة ليست ترفًا تقنيًا — إنها توفير في كل خطوة من رحلة الزائر.</p>
+<h2 id="ترتيب-العمل-المقترح-لموقع-عربي-نموذجي">ترتيب العمل المقترح لموقع عربي نموذجي</h2>
+<ol><li>ضغط وتحويل الصور إلى WebP (أكبر مكسب بالجهد الأقل).</li><li>تأجيل السكربتات غير الحرجة وإزالة المكرر منها.</li><li>أبعاد الصور وحجز مساحات الويدجت (CLS).</li><li>خطوط: استضافة ذاتية أو preload للخط الرئيسي فقط.</li><li>مراجعة الخادم/الاستضافة وتفعيل الكاش والتخزين المؤقت CDN.</li></ol>
+<hr>
+<p>خلاصة: Core Web Vitals ليست شعارات — ثلاثة أرقام واضحة، لكل رقم مسبب مشترك وإصلاح معروف. قس، أصلح الأعلى أثرًا، ثم أعد القياس بعد أسبوعين. هذه الدورة وحدها تضع موقعك أمام 90% من منافسيه.</p></div>
+      <aside class="art-toc" id="tocBox" aria-label="فهرس المقال">
+        <h2>في هذا المقال</h2>
+        <nav id="tocNav"><a href="#المؤشرات-الثلاثة-بالأرقام-الرسمية" class="toc-l2">المؤشرات الثلاثة بالأرقام الرسمية</a><a href="#lcp-أكبر-شيء-يراه-الزائر" class="toc-l2">LCP: أكبر شيء يراه الزائر</a><a href="#inp-الصفحة-تسمع-المستخدم" class="toc-l2">INP: الصفحة تسمع المستخدم؟</a><a href="#cls-لا-تدع-الصفحة-تقفز" class="toc-l2">CLS: لا تدع الصفحة &quot;تقفز&quot;</a><a href="#ابدأ-بالقياس-لا-بالتخمين" class="toc-l2">ابدأ بالقياس لا بالتخمين</a><a href="#الأثر-في-الأرباح-بدون-مبالغة" class="toc-l2">الأثر في الأرباح (بدون مبالغة)</a><a href="#ترتيب-العمل-المقترح-لموقع-عربي-نموذجي" class="toc-l2">ترتيب العمل المقترح لموقع عربي نموذجي</a></nav>
+      </aside>
+    </div>
+
+    <div class="ad-slot" data-ad-slot="inArticle"></div>
+
+    <footer class="art-foot" id="artFoot">
+      <div class="art-extras" id="artExtras"><section class="cta-strip" aria-label="تنفّذ ما قرأته دون عناء"><div class="cta-strip-in"><div class="cta-strip-txt"><b>تنفّذ ما قرأته دون عناء</b><p>أقدّم تنفيذًا مدفوعًا لما تشرحه المدونة: تجهيز المواقع لقبول ادسنس، وتحسين السيو، وبناء مواقع سريعة — بنطاق عمل مكتوب وسعر واضح قبل البدء.</p><small>تتواصل معي مباشرة — بلا وسطاء وبلا أي التزام حتى نتفق على التفاصيل</small></div><a class="btn btn-primary" href="/contact.html?service=web-dev">اطلب هذه الخدمة<svg class="ic ic-flip" aria-hidden="true"><use href="#i-arrow"/></svg></a></div></section>
+<section class="offer-zone" aria-label="عروض خاصة الآن"><h2 class="offer-title">عروض خاصة الآن</h2><div class="offer-cards"><article class="offer-card"><span class="offer-badge">الأكثر طلبًا</span><b>تجهيز موقعك لقبول ادسنس</b><p>مراجعة كاملة للمحتوى والصفحات القانونية وبنية التنقل والسرعة، مع خطة محتوى واضحة — حتى تقدّم طلب ادسنس من أقوى وضع ممكن.</p><a class="offer-link" href="/contact.html?service=adsense-prep">اطلب هذه الخدمة<svg class="ic ic-flip" aria-hidden="true"><use href="#i-arrow"/></svg></a></article><article class="offer-card"><span class="offer-badge">مقاعد محدودة شهريًا</span><b>موقع سريع جاهز للسيو من الصفر</b><p>أبني موقعًا نظيفًا وسريعًا بهيكل سليم ومهيأ للفهرسة وللإعلانات — تسليم ملتزم وتركيب كامل على نطاقك.</p><a class="offer-link" href="/contact.html?service=web-dev">اطلب هذه الخدمة<svg class="ic ic-flip" aria-hidden="true"><use href="#i-arrow"/></svg></a></article></div><p class="offer-note">عروض مني مباشرة — سارية إلى حين انتهاء المقاعد المتاحة</p></section></div>
+      <div id="artTags"><div class="tag-row"><span class="chip"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tag"/></svg>سرعة الموقع</span><span class="chip"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tag"/></svg>Core Web Vitals</span><span class="chip"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tag"/></svg>أداء الويب</span><span class="chip"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-tag"/></svg>PageSpeed</span></div></div>
+      <div class="share-row" id="shareRow"><span class="lbl">شارك المقال:</span><button class="btn btn-ghost btn-sm" data-share="copy"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-copy"/></svg>نسخ الرابط</button><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener noreferrer" href="https://wa.me/?text=Core%20Web%20Vitals%3A%20%D9%85%D8%A7%20%D8%A7%D9%84%D8%B0%D9%8A%20%D9%8A%D9%82%D9%8A%D8%B3%D9%87%20%D8%AC%D9%88%D8%AC%D9%84%20%D9%81%D8%B9%D9%84%D9%8A%D9%8B%D8%A7%20%D9%85%D9%86%20%D8%B3%D8%B1%D8%B9%D8%A9%20%D9%85%D9%88%D9%82%D8%B9%D9%83%D8%9F%20%E2%80%94%20https%3A%2F%2Fblog.abdallahabas.com%2Fposts%2Fcore-web-vitals-speed.html"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>WhatsApp</a><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener noreferrer" href="https://t.me/share/url?url=https%3A%2F%2Fblog.abdallahabas.com%2Fposts%2Fcore-web-vitals-speed.html&text=Core%20Web%20Vitals%3A%20%D9%85%D8%A7%20%D8%A7%D9%84%D8%B0%D9%8A%20%D9%8A%D9%82%D9%8A%D8%B3%D9%87%20%D8%AC%D9%88%D8%AC%D9%84%20%D9%81%D8%B9%D9%84%D9%8A%D9%8B%D8%A7%20%D9%85%D9%86%20%D8%B3%D8%B1%D8%B9%D8%A9%20%D9%85%D9%88%D9%82%D8%B9%D9%83%D8%9F"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-telegram"/></svg>Telegram</a><a class="btn btn-ghost btn-sm" target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=Core%20Web%20Vitals%3A%20%D9%85%D8%A7%20%D8%A7%D9%84%D8%B0%D9%8A%20%D9%8A%D9%82%D9%8A%D8%B3%D9%87%20%D8%AC%D9%88%D8%AC%D9%84%20%D9%81%D8%B9%D9%84%D9%8A%D9%8B%D8%A7%20%D9%85%D9%86%20%D8%B3%D8%B1%D8%B9%D8%A9%20%D9%85%D9%88%D9%82%D8%B9%D9%83%D8%9F&url=https%3A%2F%2Fblog.abdallahabas.com%2Fposts%2Fcore-web-vitals-speed.html">X</a></div>
+      <p class="license-note"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span>المحتوى من كتابة عبدالله عباس — يُسمح بالاقتباس مع ذكر المصدر ورابط صفحة المقال.</span></p>
+      <div class="related">
+        <h2>مقالات ذات صلة</h2>
+        <div class="cards" id="relatedBox"><article class="card"><div class="card-cover"><img src="/assets/images/articles/adsense-road-01-foundations/cover.png" alt="" loading="lazy" width="600" height="400"></div><div class="card-body"><span class="chip chip-acc card-cat">ادسنس وأرباح جوجل</span><h3><a class="card-link" href="/posts/adsense-road-01-foundations.html">الطريق إلى ادسنس (1): الأساسات التي تُبنى قبل أول مقال</a></h3><p>الجزء الأول من سلسلة الطريق إلى ادسنس: القرارات السبعة التي تُتخذ قبل كتابة أول مقال — النيتش، الدومين، هيكل الصفحات، التنقل، الأداء، الفهرسة، والصفحات القانونية — مع قائمة فحص نهائية.</p><div class="card-meta"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><time datetime="2026-10-24">٢٤ أكتوبر ٢٠٢٦</time></span><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>15 دقيقة قراءة</span></div></div></article><article class="card"><div class="card-cover"><img src="/assets/images/articles/adsense-road-02-content-plan/cover.png" alt="" loading="lazy" width="600" height="400"></div><div class="card-body"><span class="chip chip-acc card-cat">ادسنس وأرباح جوجل</span><h3><a class="card-link" href="/posts/adsense-road-02-content-plan.html">الطريق إلى ادسنس (2): خطة أول 30 مقالًا بلا حشو وبلا تكرار</a></h3><p>الجزء الثاني من سلسلة الطريق إلى ادسنس: خطة عملية لأول ثلاثين مقالًا — مجموعات المحتوى، توزيع نية البحث، جدول النشر الواقعي، وخطة الروابط الداخلية من اليوم الأول — مع قائمة ما لا تكتبه إطلاقًا في هذه المرحلة.</p><div class="card-meta"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><time datetime="2026-10-24">٢٤ أكتوبر ٢٠٢٦</time></span><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>14 دقيقة قراءة</span></div></div></article><article class="card"><div class="card-cover"><img src="/assets/images/articles/adsense-approval-checklist/cover.png" alt="" loading="lazy" width="600" height="400"></div><div class="card-body"><span class="chip chip-acc card-cat">ادسنس وأرباح جوجل</span><h3><a class="card-link" href="/posts/adsense-approval-checklist.html">قائمة تحقق ادسنس: 14 نقطة راجعها قبل أن تضغط إرسال الطلب</a></h3><p>قبل أن تطلب قبول ادسنس في موقعك، راجع هذه النقاط الاربع عشرة بالترتيب: المحتوى، الصفحات القانونية، التنقل، السرعة، والفهرسة — لتدخل المراجعة من أقوى وضع ممكن.</p><div class="card-meta"><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><time datetime="2026-10-16">١٦ أكتوبر ٢٠٢٦</time></span><span><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>4 دقائق قراءة</span></div></div></article></div>
+      </div>
+      <div class="ad-slot" data-ad-slot="belowPost"></div>
+  </article>
+
+  <section class="comments-sec" id="commentsSec" hidden>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>التعليقات</h2>
+        <span class="chip" id="cCount"></span>
+      </div>
+      <div id="commentsBox">
+        <div id="cAuthSlot"></div>
+        <div id="cListSlot"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="/index.html">
+        <img class="brand-mark" src="/assets/images/logo.svg" alt="" width="37" height="37" aria-hidden="true">
+        <span class="brand-txt"><b>ABDALLAH ABAS</b><i>المدونة</i></span>
+      </a>
+      <p>مدونة عربية عن الربح من الويب والسيو وبناء المواقع — محتوى مختبر وواضح، بلا وعود وهمية.</p>
+      <div class="foot-social" id="footSocial"></div>
+    </div>
+    <nav class="foot-col" aria-label="روابط المدونة">
+      <h3>المدونة</h3>
+      <a href="/index.html">الرئيسية</a>
+      <a href="/archive.html">كل المقالات</a>
+      <a href="/about.html">عن المدونة</a>
+      <a href="/contact.html">اطلب خدمة</a>
+    </nav>
+    <nav class="foot-col" aria-label="الخدمات">
+      <h3>خدماتي</h3>
+      <div id="footServices"></div>
+    </nav>
+    <nav class="foot-col" aria-label="روابط قانونية وأخرى">
+      <h3>قانوني وأدوات</h3>
+      <a href="/privacy.html">سياسة الخصوصية</a>
+      <a href="/terms.html">شروط الاستخدام</a>
+      <a href="/disclosure.html">إفصاح التابعية</a>
+      <a href="/disclaimer.html">إخلاء المسؤولية</a>
+      <a href="/feed.xml">خلاصة RSS</a>
+      <a href="https://tools.abdallahabas.com" target="_blank" rel="noopener noreferrer">منصة الأدوات</a>
+    </nav>
+  </div>
+  <div class="wrap foot-bottom">
+    <p>© <span id="footYear">2026</span> ABDALLAH ABAS — جميع الحقوق محفوظة.</p>
+    <p><a href="https://abdallahabas.com" target="_blank" rel="noopener noreferrer">الموقع الرئيسي</a><span class="sep">·</span><a href="https://blog.abdallahabas.com/sitemap.xml">Sitemap</a></p>
+  </div>
+</footer>
+
+<div class="search-layer" id="searchLayer" hidden role="dialog" aria-modal="true" aria-label="بحث المدونة">
+  <div class="search-panel">
+    <div class="search-bar">
+      <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
+      <input id="searchInput" type="search" placeholder="ابحث في المقالات…" autocomplete="off">
+      <button type="button" class="tool-btn" id="searchClose" aria-label="إغلاق البحث"><svg class="ic" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search-hints" id="searchHints"><span>جرّب:</span>
+      <button type="button" data-q="ادسنس">ادسنس</button>
+      <button type="button" data-q="سيو">السيو</button>
+      <button type="button" data-q="سرعة">السرعة</button>
+      <button type="button" data-q="محتوى">المحتوى</button>
+    </div>
+    <div class="search-results" id="searchResults" role="listbox" aria-label="نتائج البحث"></div>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+<dialog class="aa-dlg" id="aaDlg"><div class="dlg-card" id="aaDlgCard"></div></dialog>
+
+<script src="/js/config.js"></script>
+<script src="/js/ads.js"></script>
+<script src="/js/i18n.js"></script>
+<script src="/js/icons.js"></script>
+<script src="/js/markdown.js"></script>
+<script src="/js/manifest.js"></script>
+<script src="/js/articles.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/comments.js"></script>
+<script src="/js/post-enhance.js"></script>
+</body>
+</html>

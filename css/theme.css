@@ -1,0 +1,82 @@
+/* theme.css — يُحمَّل بعد main.css (آخر الكود = أولوية أعلى)
+   الوضع النهاري: تجاوز 4 مجموعات متغيرات فقط.
+   للزوار بلا JS: html:not([data-theme]) يطبّق تفضيل النظام. */
+
+html[data-theme="light"] {
+  --bg: #f6f5f1;
+  --bg-2: #efede8;
+  --card: #ffffff;
+  --card-2: #f8f7f3;
+  --line: #e6e2d9;
+  --line-2: #d9d4c8;
+  --txt: #1b1b19;
+  --txt-2: #4e4e4a;
+  --txt-3: #6f6f69;
+  --acc: #e85d00;
+  --acc-2: #ff7a1f;
+  --acc-soft: rgba(232, 93, 0, 0.10);
+  --acc-ink: #ffffff;
+  --ok: #1e9e56;
+  --warn: #b98a10;
+  --err: #d94340;
+  --code-bg: #f0ede5;
+  --head-bg: rgba(255, 255, 255, 0.86);
+  --shadow: 0 12px 34px rgba(40, 30, 10, 0.10);
+  --shadow-sm: 0 4px 14px rgba(40, 30, 10, 0.07);
+  --sel: rgba(232, 93, 0, 0.22);
+}
+
+/* لا JS؟ التزم بتفضيل النظام */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    --bg: #f6f5f1;
+    --bg-2: #efede8;
+    --card: #ffffff;
+    --card-2: #f8f7f3;
+    --line: #e6e2d9;
+    --line-2: #d9d4c8;
+    --txt: #1b1b19;
+    --txt-2: #4e4e4a;
+    --txt-3: #6f6f69;
+    --acc: #e85d00;
+    --acc-2: #ff7a1f;
+    --acc-soft: rgba(232, 93, 0, 0.10);
+    --acc-ink: #ffffff;
+    --ok: #1e9e56;
+    --warn: #b98a10;
+    --err: #d94340;
+    --code-bg: #f0ede5;
+    --head-bg: rgba(255, 255, 255, 0.86);
+    --shadow: 0 12px 34px rgba(40, 30, 10, 0.10);
+    --shadow-sm: 0 4px 14px rgba(40, 30, 10, 0.07);
+    --sel: rgba(232, 93, 0, 0.22);
+  }
+}
+
+/* لمسات نهارية إضافية */
+html[data-theme="light"] .prose code { color: #b34a00; }
+html[data-theme="light"] .prose pre code { color: #3d3d38; }
+html[data-theme="light"] .card-cover,
+html[data-theme="light"] .art-cover {
+  background:
+    radial-gradient(300px 140px at 80% 0%, rgba(232, 93, 0, 0.14), transparent 65%),
+    linear-gradient(150deg, #ffffff, #f3f1ea);
+}
+html[data-theme="light"] .status-ok { color: #14683c; }
+html[data-theme="light"] .status-err { color: #a3302e; }
+
+/* دفاع إضافي: طبقة البحث تُخفى فعليًا عند hidden (حماية للمتصفحات الأقدم) */
+.search-layer[hidden] { display: none; }
+
+/* ===== الهوية: شعار ABDALLAH ABAS الحقيقي (img) في الهيدر والفوتر ===== */
+.brand-mark {
+  display: block; object-fit: contain; padding: 2px;
+  background: rgba(255, 102, 0, 0.14);
+  border: 1px solid rgba(255, 102, 0, 0.30);
+}
+/* ===== غلاف المقال من مجلد صور المقالات ===== */
+.art-cover.cover-img-mode { height: clamp(220px, 30vw, 360px); }
+.art-cover .art-cover-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* ===== مصغرات الأغلفة في بطاقات القوائم ===== */
+.card-cover { overflow: hidden; }
+.card-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }

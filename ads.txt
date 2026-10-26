@@ -1,0 +1,5 @@
+# ads.txt — IAB Authorized Digital Sellers
+# هذا الملف فارغ عمدًا: الإعلانات معطّلة حاليًا (راجع js/config.js وقسم الإعلانات في README).
+# عند تفعيل Google AdSense: احذف أسطر التعليق هذه وضع سطرًا واحدًا بصيغة:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# (استبدل pub-XXXXXXXXXXXXXXXX بمعرّف ناشرك الحقيقي من حساب AdSense ثم ارفع التغيير)

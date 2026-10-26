@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABDALLAH ABAS Blog</title>
+    <link>https://blog.abdallahabas.com/en/</link>
+    <description>Practical articles on online earning, SEO and web building</description>
+    <language>en</language>
+    <atom:link href="https://blog.abdallahabas.com/feed-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Road to AdSense (1): Foundations You Build Before Your First Post</title>
+      <link>https://blog.abdallahabas.com/en/posts/adsense-road-01-foundations.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/adsense-road-01-foundations.html</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Part one of The Road to AdSense series: the seven decisions to make before writing a single post — niche, domain, page structure, navigation, performance, indexing, and legal pages — with a final pre-launch checklist.</description>
+    </item>
+    <item>
+      <title>The Road to AdSense (2): Your First 30 Posts — a No-Filler, No-Duplicate Plan</title>
+      <link>https://blog.abdallahabas.com/en/posts/adsense-road-02-content-plan.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/adsense-road-02-content-plan.html</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Part two of The Road to AdSense series: a practical plan for your first thirty posts — topic clusters, search-intent distribution, a realistic publishing schedule, and an internal-linking plan from day one — plus the list of what you must never write at this stage.</description>
+    </item>
+    <item>
+      <title>AdSense Approval Checklist: 14 Points to Review Before You Hit Submit</title>
+      <link>https://blog.abdallahabas.com/en/posts/adsense-approval-checklist.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/adsense-approval-checklist.html</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Before requesting AdSense approval, review these fourteen points in order: content, legal pages, navigation, speed, and indexing — so your site enters review from the strongest possible position.</description>
+    </item>
+    <item>
+      <title>Search Console From Zero: Your First 7 Steps After Adding a Site</title>
+      <link>https://blog.abdallahabas.com/en/posts/search-console-first-steps.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/search-console-first-steps.html</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 GMT</pubDate>
+      <description>A practical guide to your first week with Google Search Console: property setup, sitemap submission, indexing checks, and reading the performance report — ordered steps with no technical background needed.</description>
+    </item>
+    <item>
+      <title>Core Web Vitals: What Google Actually Measures About Your Site's Speed</title>
+      <link>https://blog.abdallahabas.com/en/posts/core-web-vitals-speed.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/core-web-vitals-speed.html</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A plain-language breakdown of the three Core Web Vitals (LCP, INP, CLS) with their official thresholds, why slow sites lose rankings and revenue — plus the first 6 fixes with real impact.</description>
+    </item>
+    <item>
+      <title>A Simple Monthly Content Plan: Publishing 8 Articles a Month Without Burning Out</title>
+      <link>https://blog.abdallahabas.com/en/posts/monthly-content-plan.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/monthly-content-plan.html</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A practical system for planning your blog's monthly content: from an idea tank to a flexible publishing calendar, using Search Console keyword data — no burnout, no team.</description>
+    </item>
+    <item>
+      <title>Free Tools Every Content Creator Needs (Running Directly in the Browser)</title>
+      <link>https://blog.abdallahabas.com/en/posts/free-tools-creators.html</link>
+      <guid isPermaLink="true">https://blog.abdallahabas.com/en/posts/free-tools-creators.html</guid>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A pack of free tools I actually use daily: word counter, text cleaner, slug generator, JSON formatter, color converter — all running in the browser with no file uploads or subscriptions.</description>
+    </item>
+  </channel>
+</rss>

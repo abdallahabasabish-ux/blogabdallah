@@ -1,0 +1,1547 @@
+{
+ "version": 1,
+ "target": 200,
+ "wordTarget": 2500,
+ "cadence": {
+  "ar": "3-4 مقالات أسبوعيًا مع أزواج عربي/إنجليزي — تكتمل الخطة في نحو 60 أسبوعًا",
+  "en": "3-4 posts weekly with Arabic/English pairs — the plan completes in about 60 weeks"
+ },
+ "policies": {
+  "ar": [
+   "محتوى أصلي بلا تكرار بين المقالات",
+   "كل مقال ≥ 2500 كلمة ويقدم قيمة قابلة للتطبيق",
+   "سلسلة مرتبطة بروابط داخلية واضحة",
+   "رصيد إعلانات لا يتجاوز المحتوى",
+   "لا إعلانات على صفحات 404 أو الشكر أو النماذج"
+  ],
+  "en": [
+   "Original content, no duplication between posts",
+   "Every post ≥ 2500 words with actionable value",
+   "Ordered series with clear internal links",
+   "Ads never outweigh content",
+   "No ads on 404, thank-you or form pages"
+  ]
+ },
+ "series": [
+  {
+   "id": "adsense-road",
+   "cat": "adsense",
+   "ar": "الطريق إلى ادسنس",
+   "en": "The Road to AdSense",
+   "goal": {
+    "ar": "من الصفر حتى القبول والأرباح الأولى — سلسلة متسلسلة بترتيب زمني حقيقي.",
+    "en": "From zero to approval and first earnings — a chronological, ordered series."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "adsense-road-01-foundations",
+     "status": "published",
+     "ar": "الأساسات التي تُبنى قبل أول مقال",
+     "en": "Foundations you build before your first post"
+    },
+    {
+     "p": 2,
+     "slug": "adsense-road-02-content-plan",
+     "status": "published",
+     "ar": "خطة أول 30 مقالًا: بلا حشو وبلا تكرار",
+     "en": "Your first 30 posts: a no-filler, no-duplicate plan"
+    },
+    {
+     "p": 3,
+     "slug": "adsense-road-03-essential-pages",
+     "status": "planned",
+     "ar": "الصفحات الضرورية: من «عن الموقع» إلى سياسة الخصوصية",
+     "en": "The essential pages: from About to Privacy Policy"
+    },
+    {
+     "p": 4,
+     "slug": "adsense-road-04-niche-choice",
+     "status": "planned",
+     "ar": "اختيار النيتش: بين شغفك وما يدفع المعلنون مقابله",
+     "en": "Choosing a niche: between your passion and what advertisers pay for"
+    },
+    {
+     "p": 5,
+     "slug": "adsense-road-05-domain-hosting",
+     "status": "planned",
+     "ar": "الدومين والاستضافة: ما يهم فعليًا لجوجل ولادسنس",
+     "en": "Domain and hosting: what actually matters to Google and AdSense"
+    },
+    {
+     "p": 6,
+     "slug": "adsense-road-06-navigation",
+     "status": "planned",
+     "ar": "بنية التنقل التي تساعد الزاحف والزائر معًا",
+     "en": "Navigation structure that helps crawlers and visitors alike"
+    },
+    {
+     "p": 7,
+     "slug": "adsense-road-07-speed-targets",
+     "status": "planned",
+     "ar": "سرعة الموقع قبل التقديم: الأرقام المستهدفة",
+     "en": "Site speed before applying: the target numbers"
+    },
+    {
+     "p": 8,
+     "slug": "adsense-road-08-mobile-first",
+     "status": "planned",
+     "ar": "الجوال أولًا: تجربة تصفح تستحق الإعلانات",
+     "en": "Mobile first: a browsing experience worthy of ads"
+    },
+    {
+     "p": 9,
+     "slug": "adsense-road-09-search-console",
+     "status": "planned",
+     "ar": "ربط Search Console وتقديم أول خريطة موقع",
+     "en": "Connecting Search Console and submitting your first sitemap"
+    },
+    {
+     "p": 10,
+     "slug": "adsense-road-10-readiness",
+     "status": "planned",
+     "ar": "متى تقدّم الطلب: علامات الجاهزية الصادقة",
+     "en": "When to apply: honest readiness signals"
+    },
+    {
+     "p": 11,
+     "slug": "adsense-road-11-application-day",
+     "status": "planned",
+     "ar": "يوم التقديم: خطوة بخطوة حتى زر الإرسال",
+     "en": "Application day: step by step to the submit button"
+    },
+    {
+     "p": 12,
+     "slug": "adsense-road-12-review-process",
+     "status": "planned",
+     "ar": "مرحلة المراجعة: ما يحدث خلف الكواليس فعليًا",
+     "en": "The review stage: what actually happens behind the scenes"
+    },
+    {
+     "p": 13,
+     "slug": "adsense-road-13-rejection-fix",
+     "status": "planned",
+     "ar": "الرفض الأول: تحليل الأسباب وخطة الإصلاح",
+     "en": "First rejection: analyzing causes and the fix plan"
+    },
+    {
+     "p": 14,
+     "slug": "adsense-road-14-reapply",
+     "status": "planned",
+     "ar": "إعادة التقديم الصحيحة: ما يتغير هذه المرة",
+     "en": "Reapplying the right way: what changes this time"
+    },
+    {
+     "p": 15,
+     "slug": "adsense-road-15-first-ads",
+     "status": "planned",
+     "ar": "بعد القبول: تركيب الإعلانات دون إفساد التجربة",
+     "en": "After approval: placing ads without ruining the experience"
+    },
+    {
+     "p": 16,
+     "slug": "adsense-road-16-auto-ads",
+     "status": "planned",
+     "ar": "Auto ads: متى تساعدك ومتى تضرّك",
+     "en": "Auto ads: when they help and when they hurt"
+    },
+    {
+     "p": 17,
+     "slug": "adsense-road-17-reports",
+     "status": "planned",
+     "ar": "قراءة تقارير الأرباح بلا خداع للنفس",
+     "en": "Reading revenue reports without fooling yourself"
+    },
+    {
+     "p": 18,
+     "slug": "adsense-road-18-first-100",
+     "status": "planned",
+     "ar": "أول 100 دولار: مسار واقعي ومحترم",
+     "en": "The first $100: a realistic, honest path"
+    },
+    {
+     "p": 19,
+     "slug": "adsense-road-19-forbidden",
+     "status": "planned",
+     "ar": "أخطاء تُنهي الحسابات: الممنوعات الصارمة",
+     "en": "Account-ending mistakes: the strict prohibitions"
+    },
+    {
+     "p": 20,
+     "slug": "adsense-road-20-audit",
+     "status": "planned",
+     "ar": "صيانة الحساب: تدقيق ربع سنوي روتيني",
+     "en": "Account maintenance: a routine quarterly audit"
+    }
+   ]
+  },
+  {
+   "id": "adsense-policies",
+   "cat": "adsense",
+   "ar": "سياسات ادسنس بالتفصيل",
+   "en": "AdSense Policies in Depth",
+   "goal": {
+    "ar": "كل بند من سياسات جوجل مفسَّر بأمثلة عملية: ماذا يُرفض ولماذا وكيف تتجنبه.",
+    "en": "Every AdSense policy clause explained with practical examples: what gets rejected, why, and how to avoid it."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "adsense-policies-01-map",
+     "status": "planned",
+     "ar": "خريطة السياسات: من أين تبدأ فعلًا",
+     "en": "The policy map: where you actually start"
+    },
+    {
+     "p": 2,
+     "slug": "adsense-policies-02-original",
+     "status": "planned",
+     "ar": "محتوى أصلي: الحد الفاصل بين الاقتباس والنسخ",
+     "en": "Original content: the line between quoting and copying"
+    },
+    {
+     "p": 3,
+     "slug": "adsense-policies-03-duplicate",
+     "status": "planned",
+     "ar": "المحتوى المكرر داخل نطاقك وخارجه",
+     "en": "Duplicate content inside and outside your domain"
+    },
+    {
+     "p": 4,
+     "slug": "adsense-policies-04-doorway",
+     "status": "planned",
+     "ar": "صفحات الدخول الزائفة (Doorway) ولماذا تُرفض",
+     "en": "Doorway pages and why they get rejected"
+    },
+    {
+     "p": 5,
+     "slug": "adsense-policies-05-low-value",
+     "status": "planned",
+     "ar": "المحتوى منخفض القيمة: أعراضه وعلاجه",
+     "en": "Low-value content: symptoms and treatment"
+    },
+    {
+     "p": 6,
+     "slug": "adsense-policies-06-invalid-traffic",
+     "status": "planned",
+     "ar": "النقرات غير الصالحة: مصادرها وكيف تحمي حسابك",
+     "en": "Invalid traffic: sources and how to protect your account"
+    },
+    {
+     "p": 7,
+     "slug": "adsense-policies-07-click-encouragement",
+     "status": "planned",
+     "ar": "تشجيع النقر: صياغات شائعة تُوقعك في مشكلة",
+     "en": "Click encouragement: common phrases that get you in trouble"
+    },
+    {
+     "p": 8,
+     "slug": "adsense-policies-08-placements",
+     "status": "planned",
+     "ar": "مواضع الإعلانات المحظورة: ما لا تضع إعلانًا بجانبه",
+     "en": "Prohibited placements: what never sits next to an ad"
+    },
+    {
+     "p": 9,
+     "slug": "adsense-policies-09-misleading",
+     "status": "planned",
+     "ar": "الإعلانات المخفية والمضللة: أمثلة واقعية",
+     "en": "Hidden and misleading ads: real examples"
+    },
+    {
+     "p": 10,
+     "slug": "adsense-policies-10-downloads",
+     "status": "planned",
+     "ar": "مواقع التحميل والملفات: قواعد خاصة صارمة",
+     "en": "Download and file sites: strict special rules"
+    },
+    {
+     "p": 11,
+     "slug": "adsense-policies-11-sensitive",
+     "status": "planned",
+     "ar": "المحتوى الحساس: حدود ما يُقبل وما يُرفض",
+     "en": "Sensitive content: what is accepted vs rejected"
+    },
+    {
+     "p": 12,
+     "slug": "adsense-policies-12-news",
+     "status": "planned",
+     "ar": "محتوى الأخبار والاحداث: متطلبات إضافية",
+     "en": "News content: additional requirements"
+    },
+    {
+     "p": 13,
+     "slug": "adsense-policies-13-privacy-gdpr",
+     "status": "planned",
+     "ar": "الخصوصية والكوكيز وGDPR داخل موقعك",
+     "en": "Privacy, cookies and GDPR inside your site"
+    },
+    {
+     "p": 14,
+     "slug": "adsense-policies-14-disclosure",
+     "status": "planned",
+     "ar": "صفحة الإفصاح: لماذا هي شرط ثقة لا ورقة شكلية",
+     "en": "The disclosure page: a trust requirement, not paperwork"
+    },
+    {
+     "p": 15,
+     "slug": "adsense-policies-15-ai-content",
+     "status": "planned",
+     "ar": "المحتوى المولد بالذكاء الاصطناعي في ميزان السياسات",
+     "en": "AI-generated content in the policy balance"
+    },
+    {
+     "p": 16,
+     "slug": "adsense-policies-16-thankyou-404",
+     "status": "planned",
+     "ar": "صفحات «شكرًا» و404: لماذا لا توضع فيها إعلانات",
+     "en": "Thank-you and 404 pages: why ads do not belong there"
+    },
+    {
+     "p": 17,
+     "slug": "adsense-policies-17-iframes",
+     "status": "planned",
+     "ar": "الإعلانات داخل iframe والتطبيقات: القيود",
+     "en": "Ads in iframes and apps: the limitations"
+    },
+    {
+     "p": 18,
+     "slug": "adsense-policies-18-h5games",
+     "status": "planned",
+     "ar": "سياسات إعلانات ألعاب الويب H5",
+     "en": "H5 game ads policies"
+    },
+    {
+     "p": 19,
+     "slug": "adsense-policies-19-changes",
+     "status": "planned",
+     "ar": "تحديثات السياسات: كيف تتابعها دون قلق",
+     "en": "Policy changes: how to track them calmly"
+    },
+    {
+     "p": 20,
+     "slug": "adsense-policies-20-audit",
+     "status": "planned",
+     "ar": "تدقيق امتثال ذاتي: 25 سؤالًا قبل كل مراجعة",
+     "en": "Self-compliance audit: 25 questions before every review"
+    }
+   ]
+  },
+  {
+   "id": "seo-foundations",
+   "cat": "seo",
+   "ar": "أساسيات السيو",
+   "en": "SEO Foundations",
+   "goal": {
+    "ar": "من فهم كيف تعمل محركات البحث إلى خطة سيو كاملة بميزانية صفر.",
+    "en": "From understanding how search engines work to a full zero-budget SEO plan."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "seo-foundations-01-how-search-works",
+     "status": "planned",
+     "ar": "كيف تعمل محركات البحث: زحف وفهرسة وترتيب",
+     "en": "How search engines work: crawling, indexing, ranking"
+    },
+    {
+     "p": 2,
+     "slug": "seo-foundations-02-intent",
+     "status": "planned",
+     "ar": "نية البحث: أنواعها وأثرها على كل مقال تكتبه",
+     "en": "Search intent: its types and effect on every post"
+    },
+    {
+     "p": 3,
+     "slug": "seo-foundations-03-keywords",
+     "status": "planned",
+     "ar": "الكلمات المفتاحية: ابدأ بالفرص الصغيرة",
+     "en": "Keywords: start with the small opportunities"
+    },
+    {
+     "p": 4,
+     "slug": "seo-foundations-04-titles",
+     "status": "planned",
+     "ar": "عناوين تكسب النقرة دون خداع",
+     "en": "Titles that win clicks without deception"
+    },
+    {
+     "p": 5,
+     "slug": "seo-foundations-05-meta-desc",
+     "status": "planned",
+     "ar": "الوصف التعريفي: 155 حرفًا يصنعون الفرق",
+     "en": "Meta descriptions: 155 characters that matter"
+    },
+    {
+     "p": 6,
+     "slug": "seo-foundations-06-headings",
+     "status": "planned",
+     "ar": "بنية العناوين H1-H3 المنضبطة",
+     "en": "A disciplined H1-H3 heading structure"
+    },
+    {
+     "p": 7,
+     "slug": "seo-foundations-07-internal-links",
+     "status": "planned",
+     "ar": "الروابط الداخلية: شريان موقعك",
+     "en": "Internal links: your site's artery"
+    },
+    {
+     "p": 8,
+     "slug": "seo-foundations-08-outbound",
+     "status": "planned",
+     "ar": "الروابط الخارجية: متى تساعد ومتى تضر",
+     "en": "Outbound links: when they help and when they hurt"
+    },
+    {
+     "p": 9,
+     "slug": "seo-foundations-09-images",
+     "status": "planned",
+     "ar": "سيو الصور و alt: تحسين يتجاهله الجميع",
+     "en": "Image SEO and alt text: the ignored improvement"
+    },
+    {
+     "p": 10,
+     "slug": "seo-foundations-10-structured-data",
+     "status": "planned",
+     "ar": "البيانات المنظمة للمقالات ببساطة",
+     "en": "Article structured data, simplified"
+    },
+    {
+     "p": 11,
+     "slug": "seo-foundations-11-eeat",
+     "status": "planned",
+     "ar": "E-E-A-T مترجمًا إلى خطوات عملية",
+     "en": "E-E-A-T translated into practical steps"
+    },
+    {
+     "p": 12,
+     "slug": "seo-foundations-12-long-short",
+     "status": "planned",
+     "ar": "المقال الطويل مقابل القصير: متى تستخدم كلًا منهما",
+     "en": "Long vs short posts: when to use each"
+    },
+    {
+     "p": 13,
+     "slug": "seo-foundations-13-refresh",
+     "status": "planned",
+     "ar": "تحديث المقالات القديمة: أسرع مكسب سيو",
+     "en": "Updating old posts: the fastest SEO win"
+    },
+    {
+     "p": 14,
+     "slug": "seo-foundations-14-cannibalization",
+     "status": "planned",
+     "ar": "أكل الكلمات المفتاحية: حين تنافس نفسك",
+     "en": "Keyword cannibalization: competing with yourself"
+    },
+    {
+     "p": 15,
+     "slug": "seo-foundations-15-local",
+     "status": "planned",
+     "ar": "إشارات السيو المحلي في موقعك",
+     "en": "Local SEO signals on your site"
+    },
+    {
+     "p": 16,
+     "slug": "seo-foundations-16-free-tools",
+     "status": "planned",
+     "ar": "أدوات السيو المجانية التي تكفي فعلًا",
+     "en": "Free SEO tools that are actually enough"
+    },
+    {
+     "p": 17,
+     "slug": "seo-foundations-17-pdf",
+     "status": "planned",
+     "ar": "سيو المستندات وملفات PDF",
+     "en": "Document and PDF SEO"
+    },
+    {
+     "p": 18,
+     "slug": "seo-foundations-18-mistakes",
+     "status": "planned",
+     "ar": "أخطاء تقنية شائعة تقتل الترتيب",
+     "en": "Common technical mistakes that kill rankings"
+    },
+    {
+     "p": 19,
+     "slug": "seo-foundations-19-zero-budget",
+     "status": "planned",
+     "ar": "خطة سيو ثلاثية الأشهر بميزانية صفر",
+     "en": "A 3-month zero-budget SEO plan"
+    },
+    {
+     "p": 20,
+     "slug": "seo-foundations-20-metrics",
+     "status": "planned",
+     "ar": "مؤشرات السيو التي تهم فعلًا",
+     "en": "SEO metrics that actually matter"
+    }
+   ]
+  },
+  {
+   "id": "indexing-mastery",
+   "cat": "seo",
+   "ar": "إتقان الفهرسة وSearch Console",
+   "en": "Indexing Mastery with Search Console",
+   "goal": {
+    "ar": "كل ما يجعل جوجل تفهم موقعك وترجماته: من sitemap إلى حالات الاستبعاد.",
+    "en": "Everything that makes Google understand your site and translations: from sitemaps to exclusion states."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "indexing-01-gsc-zero",
+     "status": "planned",
+     "ar": "Search Console من الصفر حتى أول تقرير",
+     "en": "Search Console from zero to your first report"
+    },
+    {
+     "p": 2,
+     "slug": "indexing-02-url-inspection",
+     "status": "planned",
+     "ar": "أداة فحص الرابط: الاستخدام الصحيح",
+     "en": "URL inspection: the correct usage"
+    },
+    {
+     "p": 3,
+     "slug": "indexing-03-sitemaps",
+     "status": "planned",
+     "ar": "خرائط المواقع: ماذا تضع وما لا تضع",
+     "en": "Sitemaps: what belongs and what does not"
+    },
+    {
+     "p": 4,
+     "slug": "indexing-04-robots",
+     "status": "planned",
+     "ar": "robots.txt: توجيهات لا أوامر سحرية",
+     "en": "robots.txt: directives, not magic commands"
+    },
+    {
+     "p": 5,
+     "slug": "indexing-05-exclusions",
+     "status": "planned",
+     "ar": "Crawled - currently not indexed: التشخيص والعلاج",
+     "en": "Crawled, currently not indexed: diagnosis and fix"
+    },
+    {
+     "p": 6,
+     "slug": "indexing-06-discovered",
+     "status": "planned",
+     "ar": "Discovered - currently not indexed: حلول عملية",
+     "en": "Discovered, currently not indexed: practical fixes"
+    },
+    {
+     "p": 7,
+     "slug": "indexing-07-canonical",
+     "status": "planned",
+     "ar": "الوسم Canonical: توحيد النسخ بلا دراما",
+     "en": "Canonical: unifying copies without drama"
+    },
+    {
+     "p": 8,
+     "slug": "indexing-08-noindex",
+     "status": "planned",
+     "ar": "noindex: متى تستخدمه عمدًا",
+     "en": "noindex: when to use it deliberately"
+    },
+    {
+     "p": 9,
+     "slug": "indexing-09-hreflang",
+     "status": "planned",
+     "ar": "hreflang للموقع ثنائي اللغة بلا أخطاء",
+     "en": "hreflang for bilingual sites without errors"
+    },
+    {
+     "p": 10,
+     "slug": "indexing-10-coverage",
+     "status": "planned",
+     "ar": "تقرير التغطية: قراءة تشخيصية كاملة",
+     "en": "The coverage report: a full diagnostic read"
+    },
+    {
+     "p": 11,
+     "slug": "indexing-11-speed",
+     "status": "planned",
+     "ar": "ما الذي يبطئ فهرسة موقعك فعلًا",
+     "en": "What actually slows down your indexing"
+    },
+    {
+     "p": 12,
+     "slug": "indexing-12-parameters",
+     "status": "planned",
+     "ar": "صفحات البارامترات: السيطرة على الفوضى",
+     "en": "Parameter pages: controlling the chaos"
+    },
+    {
+     "p": 13,
+     "slug": "indexing-13-redirects",
+     "status": "planned",
+     "ar": "301 مقابل 302: القرار الصحيح",
+     "en": "301 vs 302: making the right call"
+    },
+    {
+     "p": 14,
+     "slug": "indexing-14-404",
+     "status": "planned",
+     "ar": "أخطاء 404 وSoft 404: الفرق والمعالجة",
+     "en": "404 and soft 404: difference and treatment"
+    },
+    {
+     "p": 15,
+     "slug": "indexing-15-migration",
+     "status": "planned",
+     "ar": "نقل الموقع دون فقدان الفهرسة",
+     "en": "Site migration without losing indexation"
+    },
+    {
+     "p": 16,
+     "slug": "indexing-16-meta-advanced",
+     "status": "planned",
+     "ar": "وسوم الفهرسة المتقدمة: robots وnosnippet",
+     "en": "Advanced robots meta tags: nosnippet and more"
+    },
+    {
+     "p": 17,
+     "slug": "indexing-17-page-experience",
+     "status": "planned",
+     "ar": "تقرير تجربة الصفحة: قراءة وأثر",
+     "en": "The page experience report: reading and impact"
+    },
+    {
+     "p": 18,
+     "slug": "indexing-18-removals",
+     "status": "planned",
+     "ar": "حذف محتوى من نتائج جوجل بالطرق الصحيحة",
+     "en": "Removing content from Google the right way"
+    },
+    {
+     "p": 19,
+     "slug": "indexing-19-manual-actions",
+     "status": "planned",
+     "ar": "الإجراءات اليدوية: الأسباب وطلب المراجعة",
+     "en": "Manual actions: causes and reconsideration"
+    },
+    {
+     "p": 20,
+     "slug": "indexing-20-routine",
+     "status": "planned",
+     "ar": "روتين أسبوعي في Search Console في 20 دقيقة",
+     "en": "A 20-minute weekly Search Console routine"
+    }
+   ]
+  },
+  {
+   "id": "site-performance",
+   "cat": "web-dev",
+   "ar": "الأداء وCore Web Vitals",
+   "en": "Performance and Core Web Vitals",
+   "goal": {
+    "ar": "كل مقياس من مقاييس الأداء الثلاثة مع حلول عملية بلا إطار عمل.",
+    "en": "Each Core Web Vital with practical fixes — no framework required."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "perf-01-lcp",
+     "status": "planned",
+     "ar": "LCP: أكبر عنصر مرئي وكيف تصلحه",
+     "en": "LCP: the largest element and how to fix it"
+    },
+    {
+     "p": 2,
+     "slug": "perf-02-inp",
+     "status": "planned",
+     "ar": "INP: الاستجابة للتفاعل بلا تعقيد",
+     "en": "INP: interaction responsiveness without complexity"
+    },
+    {
+     "p": 3,
+     "slug": "perf-03-cls",
+     "status": "planned",
+     "ar": "CLS: استقرار التخطيط ومصادر القفزات",
+     "en": "CLS: layout stability and jump sources"
+    },
+    {
+     "p": 4,
+     "slug": "perf-04-measuring",
+     "status": "planned",
+     "ar": "القياس الصحيح: بيانات المختبر مقابل الحقل",
+     "en": "Measuring right: lab vs field data"
+    },
+    {
+     "p": 5,
+     "slug": "perf-05-fonts",
+     "status": "planned",
+     "ar": "تحسين الخطوط: FOUT وswap وعرض عربي سليم",
+     "en": "Font optimization: swap and clean Arabic rendering"
+    },
+    {
+     "p": 6,
+     "slug": "perf-06-images",
+     "status": "planned",
+     "ar": "الصور: WebP وAVIF والتحميل الكسول الصحيح",
+     "en": "Images: WebP, AVIF and correct lazy loading"
+    },
+    {
+     "p": 7,
+     "slug": "perf-07-js",
+     "status": "planned",
+     "ar": "جافاسكريبت غير حاجب: defer وasync عمليًا",
+     "en": "Non-blocking JavaScript: defer and async in practice"
+    },
+    {
+     "p": 8,
+     "slug": "perf-08-critical-css",
+     "status": "planned",
+     "ar": "CSS الحرج: المفهوم والتطبيق البسيط",
+     "en": "Critical CSS: concept and simple application"
+    },
+    {
+     "p": 9,
+     "slug": "perf-09-cdn",
+     "status": "planned",
+     "ar": "الـ CDN والتخزين المؤقت: ما يهم موقعك الصغير",
+     "en": "CDN and caching: what matters for a small site"
+    },
+    {
+     "p": 10,
+     "slug": "perf-10-compression",
+     "status": "planned",
+     "ar": "ضغط Brotli وGzip: تفعيل صحيح",
+     "en": "Brotli and Gzip compression: correct setup"
+    },
+    {
+     "p": 11,
+     "slug": "perf-11-third-party",
+     "status": "planned",
+     "ar": "الطلبات الخارجية: تقليل أثرها على سرعتك",
+     "en": "Third-party requests: minimizing their impact"
+    },
+    {
+     "p": 12,
+     "slug": "perf-12-hosting",
+     "status": "planned",
+     "ar": "الاستضافة وأثرها الحقيقي على الأداء",
+     "en": "Hosting and its real performance impact"
+    },
+    {
+     "p": 13,
+     "slug": "perf-13-analytics-ads",
+     "status": "planned",
+     "ar": "أداء Analytics وAdSense معًا دون بطء",
+     "en": "Analytics and AdSense performance together"
+    },
+    {
+     "p": 14,
+     "slug": "perf-14-budget",
+     "status": "planned",
+     "ar": "ميزانية الأداء للمشاريع الفردية",
+     "en": "A performance budget for solo projects"
+    },
+    {
+     "p": 15,
+     "slug": "perf-15-slow-networks",
+     "status": "planned",
+     "ar": "اختبار موقعك على شبكات بطيئة فعلًا",
+     "en": "Testing your site on genuinely slow networks"
+    },
+    {
+     "p": 16,
+     "slug": "perf-16-prefetch",
+     "status": "planned",
+     "ar": "Prefetch للملاحة الداخلية الأسرع",
+     "en": "Prefetching for faster internal navigation"
+    },
+    {
+     "p": 17,
+     "slug": "perf-17-sw",
+     "status": "planned",
+     "ar": "Service Workers للمواقع النصية: أساسيات",
+     "en": "Service workers for text sites: essentials"
+    },
+    {
+     "p": 18,
+     "slug": "perf-18-deploy-routine",
+     "status": "planned",
+     "ar": "روتين قياس الأداء بعد كل نشر",
+     "en": "A performance routine after every deploy"
+    },
+    {
+     "p": 19,
+     "slug": "perf-19-rankings",
+     "status": "planned",
+     "ar": "الأداء وترتيب البحث: الحقيقة من الضجيج",
+     "en": "Performance and rankings: truth vs hype"
+    },
+    {
+     "p": 20,
+     "slug": "perf-20-case",
+     "status": "planned",
+     "ar": "دراسة حالة: من 40 إلى 95 بلا إطار عمل",
+     "en": "Case study: from 40 to 95 without a framework"
+    }
+   ]
+  },
+  {
+   "id": "build-your-site",
+   "cat": "web-dev",
+   "ar": "ابنِ موقعك خطوة بخطوة",
+   "en": "Build Your Site Step by Step",
+   "goal": {
+    "ar": "من صفحة HTML الأولى إلى موقع منشور بنطاق مخصص وتحليلات ونماذج آمنة.",
+    "en": "From your first HTML page to a live site with a custom domain, analytics and safe forms."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "build-01-roadmap",
+     "status": "planned",
+     "ar": "خارطة طريق موقعك الأول كاملة",
+     "en": "The complete roadmap for your first site"
+    },
+    {
+     "p": 2,
+     "slug": "build-02-html",
+     "status": "planned",
+     "ar": "HTML دلالي: الأساس الذي يسهل كل ما بعده",
+     "en": "Semantic HTML: the foundation that eases everything after"
+    },
+    {
+     "p": 3,
+     "slug": "build-03-css",
+     "status": "planned",
+     "ar": "CSS حديث: Grid وFlex للمبتدئ الصادق",
+     "en": "Modern CSS: Grid and Flex for honest beginners"
+    },
+    {
+     "p": 4,
+     "slug": "build-04-breakpoints",
+     "status": "planned",
+     "ar": "الجوال أولًا: نقاط انكسار منطقية",
+     "en": "Mobile first: logical breakpoints"
+    },
+    {
+     "p": 5,
+     "slug": "build-05-forms",
+     "status": "planned",
+     "ar": "النماذج: تجربة استخدام وأمان معًا",
+     "en": "Forms: UX and security together"
+    },
+    {
+     "p": 6,
+     "slug": "build-06-a11y",
+     "status": "planned",
+     "ar": "الوصولية: أساسيات ARIA التي تكفي",
+     "en": "Accessibility: the ARIA basics that suffice"
+    },
+    {
+     "p": 7,
+     "slug": "build-07-structure",
+     "status": "planned",
+     "ar": "هيكل ملفات مشروع نظيف وقابل للنمو",
+     "en": "A clean, growable project file structure"
+    },
+    {
+     "p": 8,
+     "slug": "build-08-github-pages",
+     "status": "planned",
+     "ar": "النشر على GitHub Pages خطوة بخطوة",
+     "en": "Deploying to GitHub Pages step by step"
+    },
+    {
+     "p": 9,
+     "slug": "build-09-domain-dns",
+     "status": "planned",
+     "ar": "النطاق المخصص وDNS بلا أخطاء شائعة",
+     "en": "Custom domain and DNS without common mistakes"
+    },
+    {
+     "p": 10,
+     "slug": "build-10-https",
+     "status": "planned",
+     "ar": "HTTPS: التفعيل والانتباه للمزيج المختلط",
+     "en": "HTTPS: enabling it and avoiding mixed content"
+    },
+    {
+     "p": 11,
+     "slug": "build-11-editing",
+     "status": "planned",
+     "ar": "التحرير دون CMS: نظام محتوى بسيط",
+     "en": "Editing without a CMS: a simple content system"
+    },
+    {
+     "p": 12,
+     "slug": "build-12-wordpress-static",
+     "status": "planned",
+     "ar": "ووردبريس أم موقع ثابت؟ قرار صادق",
+     "en": "WordPress or static? An honest decision"
+    },
+    {
+     "p": 13,
+     "slug": "build-13-add-blog",
+     "status": "planned",
+     "ar": "إضافة مدونة لموقع قائم بنية سليمة",
+     "en": "Adding a blog to an existing site cleanly"
+    },
+    {
+     "p": 14,
+     "slug": "build-14-error-pages",
+     "status": "planned",
+     "ar": "صفحات خطأ تخدم الزائر بدل إحباطه",
+     "en": "Error pages that serve visitors instead of frustrating them"
+    },
+    {
+     "p": 15,
+     "slug": "build-15-backups",
+     "status": "planned",
+     "ar": "النسخ الاحتياطي للمحتوى: خطة بسيطة",
+     "en": "Content backups: a simple plan"
+    },
+    {
+     "p": 16,
+     "slug": "build-16-git",
+     "status": "planned",
+     "ar": "Git للمبتدئين: تاريخ آمن لموقعك",
+     "en": "Git for beginners: a safe history for your site"
+    },
+    {
+     "p": 17,
+     "slug": "build-17-workflows",
+     "status": "planned",
+     "ar": "أتمتة النشر بـ GitHub Actions",
+     "en": "Automating deploys with GitHub Actions"
+    },
+    {
+     "p": 18,
+     "slug": "build-18-analytics",
+     "status": "planned",
+     "ar": "تحليلات بلا تعقيد: ما تحتاج قياسه فعلًا",
+     "en": "Analytics without complexity: what you need to measure"
+    },
+    {
+     "p": 19,
+     "slug": "build-19-services-page",
+     "status": "planned",
+     "ar": "صفحة خدمات تبيع فعلًا",
+     "en": "A services page that actually sells"
+    },
+    {
+     "p": 20,
+     "slug": "build-20-business",
+     "status": "planned",
+     "ar": "من مشروع شخصي إلى موقع تجاري",
+     "en": "From personal project to business site"
+    }
+   ]
+  },
+  {
+   "id": "content-engine",
+   "cat": "marketing",
+   "ar": "مصنع المحتوى",
+   "en": "The Content Engine",
+   "goal": {
+    "ar": "نظام كتابة مستدام: من الفكرة إلى المقال المنشور والقابل للترتيب والتحديث.",
+    "en": "A sustainable writing system: from idea to a publishable, rankable, updatable article."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "content-01-calendar",
+     "status": "planned",
+     "ar": "التقويم التحريري الواقعي لشخص واحد",
+     "en": "A realistic one-person editorial calendar"
+    },
+    {
+     "p": 2,
+     "slug": "content-02-idea-title",
+     "status": "planned",
+     "ar": "من الفكرة إلى العنوان: نظام متكرر",
+     "en": "Idea to title: a repeatable system"
+    },
+    {
+     "p": 3,
+     "slug": "content-03-research",
+     "status": "planned",
+     "ar": "البحث قبل الكتابة: 30 دقيقة تكفي",
+     "en": "Pre-writing research: 30 minutes is enough"
+    },
+    {
+     "p": 4,
+     "slug": "content-04-intros",
+     "status": "planned",
+     "ar": "مقدمات تمنع الخروج في أول 10 ثوانٍ",
+     "en": "Intros that stop the 10-second exit"
+    },
+    {
+     "p": 5,
+     "slug": "content-05-layers",
+     "status": "planned",
+     "ar": "كتابة للمبتدئ والمتقدم في مقال واحد",
+     "en": "Writing for beginners and pros in one post"
+    },
+    {
+     "p": 6,
+     "slug": "content-06-formatting",
+     "status": "planned",
+     "ar": "تنسيق يحترم القارئ: عناوين وقوائم وجداول",
+     "en": "Formatting that respects the reader"
+    },
+    {
+     "p": 7,
+     "slug": "content-07-examples",
+     "status": "planned",
+     "ar": "توثيق تجربتك بأمثلة حقيقية",
+     "en": "Documenting your experience with real examples"
+    },
+    {
+     "p": 8,
+     "slug": "content-08-screenshots",
+     "status": "planned",
+     "ar": "لقطات شاشة تعليمية بجودة عالية",
+     "en": "High-quality instructional screenshots"
+    },
+    {
+     "p": 9,
+     "slug": "content-09-linking",
+     "status": "planned",
+     "ar": "الروابط الداخلية كاستراتيجية لا صدفة",
+     "en": "Internal linking as strategy, not accident"
+    },
+    {
+     "p": 10,
+     "slug": "content-10-seasonal",
+     "status": "planned",
+     "ar": "التحديثات الموسمية للمحتوى الدائم",
+     "en": "Seasonal updates for evergreen content"
+    },
+    {
+     "p": 11,
+     "slug": "content-11-repurposing",
+     "status": "planned",
+     "ar": "إعادة التدوير: من مقال إلى عشرة منشورات",
+     "en": "Repurposing: one post into ten pieces"
+    },
+    {
+     "p": 12,
+     "slug": "content-12-bilingual",
+     "status": "planned",
+     "ar": "الكتابة بلغتين دون مضاعفة الجهد",
+     "en": "Writing in two languages without doubling effort"
+    },
+    {
+     "p": 13,
+     "slug": "content-13-proofreading",
+     "status": "planned",
+     "ar": "تدقيق عربي للمواقع: أدوات وعادات",
+     "en": "Arabic proofreading for websites"
+    },
+    {
+     "p": 14,
+     "slug": "content-14-stuffing",
+     "status": "planned",
+     "ar": "حشو الكلمات المفتاحية: لماذا يعاقبك جوجل",
+     "en": "Keyword stuffing: why Google penalizes it"
+    },
+    {
+     "p": 15,
+     "slug": "content-15-pillar",
+     "status": "planned",
+     "ar": "المقالات المرجعية (Pillar): بناء صحيح",
+     "en": "Pillar pages: building them right"
+    },
+    {
+     "p": 16,
+     "slug": "content-16-clusters",
+     "status": "planned",
+     "ar": "مجموعات المحتوى: كيف تترابط موضوعيًا",
+     "en": "Topic clusters: how they interlink"
+    },
+    {
+     "p": 17,
+     "slug": "content-17-cta",
+     "status": "planned",
+     "ar": "دعوات إجراء داخل المحتوى بلا إلحاح",
+     "en": "In-content CTAs without being pushy"
+    },
+    {
+     "p": 18,
+     "slug": "content-18-comments",
+     "status": "planned",
+     "ar": "التعامل مع التعليقات والأسئلة بذكاء",
+     "en": "Handling comments and questions smartly"
+    },
+    {
+     "p": 19,
+     "slug": "content-19-cadence",
+     "status": "planned",
+     "ar": "إيقاع نشر شهري قابل للتنفيذ فعلًا",
+     "en": "A monthly publishing cadence you can actually keep"
+    },
+    {
+     "p": 20,
+     "slug": "content-20-templates",
+     "status": "planned",
+     "ar": "قوالب المقالات الجاهزة: هياكل أثبتت نجاحها",
+     "en": "Ready article templates: proven structures"
+    }
+   ]
+  },
+  {
+   "id": "monetization-mix",
+   "cat": "marketing",
+   "ar": "مصادر الربح المتعددة",
+   "en": "Multiple Income Streams",
+   "goal": {
+    "ar": "ادسنس ضمن منظومة أكبر: عمولة ومنتجات وخدمات — بصدق وبلا وعود وهمية.",
+    "en": "AdSense within a bigger system: affiliate, products and services — honestly, no fake promises."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "money-01-context",
+     "status": "planned",
+     "ar": "ادسنس ضمن منظومة: النظرة الصحيحة للربح",
+     "en": "AdSense in context: the right view of earning"
+    },
+    {
+     "p": 2,
+     "slug": "money-02-affiliate",
+     "status": "planned",
+     "ar": "التسويق بالعمولة: البداية الصادقة",
+     "en": "Affiliate marketing: the honest start"
+    },
+    {
+     "p": 3,
+     "slug": "money-03-programs",
+     "status": "planned",
+     "ar": "اختيار برامج عمولة موثوقة فعلًا",
+     "en": "Choosing genuinely trustworthy affiliate programs"
+    },
+    {
+     "p": 4,
+     "slug": "money-04-reviews",
+     "status": "planned",
+     "ar": "صفحات المراجعات: شفافية تكسب الثقة",
+     "en": "Review pages: transparency that earns trust"
+    },
+    {
+     "p": 5,
+     "slug": "money-05-products",
+     "status": "planned",
+     "ar": "منتجاتك الرقمية الأولى: من الفكرة للبيع",
+     "en": "Your first digital products: idea to sale"
+    },
+    {
+     "p": 6,
+     "slug": "money-06-services",
+     "status": "planned",
+     "ar": "خدمات واستشارات تنطلق من مدونتك",
+     "en": "Services and consulting powered by your blog"
+    },
+    {
+     "p": 7,
+     "slug": "money-07-sponsorships",
+     "status": "planned",
+     "ar": "الرعايات: متى تقبل ومتى ترفض",
+     "en": "Sponsorships: when to accept and when to refuse"
+    },
+    {
+     "p": 8,
+     "slug": "money-08-email",
+     "status": "planned",
+     "ar": "النشرة البريدية: قائمة تملكها أنت",
+     "en": "Email newsletters: a list you own"
+    },
+    {
+     "p": 9,
+     "slug": "money-09-conversion",
+     "status": "planned",
+     "ar": "تحويل الزوار إلى مشتركين بلا إزعاج",
+     "en": "Converting visitors without annoying them"
+    },
+    {
+     "p": 10,
+     "slug": "money-10-youtube",
+     "status": "planned",
+     "ar": "يوتيوب والموقع: منظومة متكاملة",
+     "en": "YouTube and your site: one system"
+    },
+    {
+     "p": 11,
+     "slug": "money-11-paid",
+     "status": "planned",
+     "ar": "المحتوى المدفوع والعضويات: هل تناسبك؟",
+     "en": "Paid content and memberships: are they for you?"
+    },
+    {
+     "p": 12,
+     "slug": "money-12-pricing",
+     "status": "planned",
+     "ar": "تسعير خدماتك: منهج لا تخمين",
+     "en": "Pricing your services: method, not guessing"
+    },
+    {
+     "p": 13,
+     "slug": "money-13-payments",
+     "status": "planned",
+     "ar": "استقبال الدفعات الدولية بأمان",
+     "en": "Receiving international payments safely"
+    },
+    {
+     "p": 14,
+     "slug": "money-14-legal",
+     "status": "planned",
+     "ar": "الجانب القانوني للربح من الإنترنت",
+     "en": "The legal side of online income"
+    },
+    {
+     "p": 15,
+     "slug": "money-15-bookkeeping",
+     "status": "planned",
+     "ar": "محاسبة مبسطة للمستقل العربي",
+     "en": "Simplified bookkeeping for the Arab freelancer"
+    },
+    {
+     "p": 16,
+     "slug": "money-16-three-sources",
+     "status": "planned",
+     "ar": "قاعدة المصادر الثلاثة للدخل المستقر",
+     "en": "The three-source rule for stable income"
+    },
+    {
+     "p": 17,
+     "slug": "money-17-metrics",
+     "status": "planned",
+     "ar": "قياس ربحية كل قناة على حدة",
+     "en": "Measuring each channel's profitability"
+    },
+    {
+     "p": 18,
+     "slug": "money-18-killers",
+     "status": "planned",
+     "ar": "أخطاء تدميرية في تحقيق الدخل",
+     "en": "Monetization mistakes that destroy trust"
+    },
+    {
+     "p": 19,
+     "slug": "money-19-reputation",
+     "status": "planned",
+     "ar": "سمعة تبيع عنك قبل أن تتحدث",
+     "en": "A reputation that sells before you speak"
+    },
+    {
+     "p": 20,
+     "slug": "money-20-year-plan",
+     "status": "planned",
+     "ar": "خطة سنة كاملة للدخل الرقمي",
+     "en": "A full-year digital income plan"
+    }
+   ]
+  },
+  {
+   "id": "tools-workshop",
+   "cat": "tools",
+   "ar": "ورشة الأدوات المجانية",
+   "en": "The Free Tools Workshop",
+   "goal": {
+    "ar": "دروس تطبيقية حول أدوات المتصفح المجانية: استخدمها اليوم وأنجز عملك بلا برامج.",
+    "en": "Hands-on lessons around free browser tools: use them today, no software needed."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "tools-01-word-counter",
+     "status": "planned",
+     "ar": "عداد الكلمات: استخدامات تتجاوز العدّ",
+     "en": "Word counter: uses beyond counting"
+    },
+    {
+     "p": 2,
+     "slug": "tools-02-text-cleaner",
+     "status": "planned",
+     "ar": "منظف النصوص: من وورد إلى الويب نظيفًا",
+     "en": "Text cleaner: from Word to clean web"
+    },
+    {
+     "p": 3,
+     "slug": "tools-03-slugs",
+     "status": "planned",
+     "ar": "مولد الروابط (Slug) للعناوين العربية",
+     "en": "Slug generation for Arabic titles"
+    },
+    {
+     "p": 4,
+     "slug": "tools-04-meta-tags",
+     "status": "planned",
+     "ar": "بطاقة Meta Tags نظيفة لمحركات البحث",
+     "en": "Clean meta tags for search engines"
+    },
+    {
+     "p": 5,
+     "slug": "tools-05-robots-gen",
+     "status": "planned",
+     "ar": "توليد robots.txt دون أخطاء قاتلة",
+     "en": "Generating robots.txt without fatal mistakes"
+    },
+    {
+     "p": 6,
+     "slug": "tools-06-json",
+     "status": "planned",
+     "ar": "تنسيق JSON للمبتدئين: قراءة وإصلاح",
+     "en": "JSON formatting for beginners: reading and fixing"
+    },
+    {
+     "p": 7,
+     "slug": "tools-07-base64",
+     "status": "planned",
+     "ar": "Base64: ما هو ومتى تستخدمه فعلًا",
+     "en": "Base64: what it is and when you need it"
+    },
+    {
+     "p": 8,
+     "slug": "tools-08-url-encode",
+     "status": "planned",
+     "ar": "ترميز الروابط: متى ولماذا",
+     "en": "URL encoding: when and why"
+    },
+    {
+     "p": 9,
+     "slug": "tools-09-colors",
+     "status": "planned",
+     "ar": "تحويل الألوان: HEX إلى RGB وHSL",
+     "en": "Color conversion: HEX to RGB and HSL"
+    },
+    {
+     "p": 10,
+     "slug": "tools-10-timestamps",
+     "status": "planned",
+     "ar": "Timestamps: التواريخ بلغة المطورين",
+     "en": "Timestamps: dates in developer language"
+    },
+    {
+     "p": 11,
+     "slug": "tools-11-dimensions",
+     "status": "planned",
+     "ar": "أبعاد الصور لكل منصة بلا تخمين",
+     "en": "Image dimensions for every platform"
+    },
+    {
+     "p": 12,
+     "slug": "tools-12-convert",
+     "status": "planned",
+     "ar": "تحويل صيغ الصور دون برامج مدفوعة",
+     "en": "Image conversion without paid software"
+    },
+    {
+     "p": 13,
+     "slug": "tools-13-pricing",
+     "status": "planned",
+     "ar": "حاسبة أسعار المستقل: كم تسعّر ساعتك؟",
+     "en": "The freelancer price calculator: your hourly rate"
+    },
+    {
+     "p": 14,
+     "slug": "tools-14-gsc-combo",
+     "status": "planned",
+     "ar": "Search Console وأدواتك المحلية معًا",
+     "en": "Search Console combined with local tools"
+    },
+    {
+     "p": 15,
+     "slug": "tools-15-workflow",
+     "status": "planned",
+     "ar": "سير عمل أسبوعي بالأدوات المجانية",
+     "en": "A weekly workflow with free tools"
+    },
+    {
+     "p": 16,
+     "slug": "tools-16-legal-checks",
+     "status": "planned",
+     "ar": "فحص صفحاتك القانونية بأدوات مجانية",
+     "en": "Checking legal pages with free tools"
+    },
+    {
+     "p": 17,
+     "slug": "tools-17-speed-tests",
+     "status": "planned",
+     "ar": "اختبار السرعة بأدوات مجانية موثوقة",
+     "en": "Speed testing with reliable free tools"
+    },
+    {
+     "p": 18,
+     "slug": "tools-18-screenshots",
+     "status": "planned",
+     "ar": "أدوات التوثيق واللقطات التعليمية",
+     "en": "Documentation and instructional screenshot tools"
+    },
+    {
+     "p": 19,
+     "slug": "tools-19-own-toolkit",
+     "status": "planned",
+     "ar": "بناء صندوق أدواتك الخاصة خطوة بخطوة",
+     "en": "Building your own toolkit step by step"
+    },
+    {
+     "p": 20,
+     "slug": "tools-20-safety",
+     "status": "planned",
+     "ar": "أمان الأدوات: ما لا يجب أن ترفعه أبدًا",
+     "en": "Tool safety: what you must never upload"
+    }
+   ]
+  },
+  {
+   "id": "earning-experiments",
+   "cat": "adsense",
+   "ar": "تجارب ودراسات حالة",
+   "en": "Experiments and Case Studies",
+   "goal": {
+    "ar": "تجارب حقيقية بأرقام موثقة في الربح والسيو — بلا مبالغات وبلا أرقام مختلقة.",
+    "en": "Real documented experiments with numbers — no exaggeration, no fabricated figures."
+   },
+   "parts": [
+    {
+     "p": 1,
+     "slug": "exp-01-placements",
+     "status": "planned",
+     "ar": "تجربة: أثر مواضع الإعلانات على الأرباح وتجربة القراءة",
+     "en": "Experiment: ad placement effect on revenue and reading"
+    },
+    {
+     "p": 2,
+     "slug": "exp-02-refresh-impact",
+     "status": "planned",
+     "ar": "تقرير: متى يظهر أثر تحديث المحتوى؟",
+     "en": "Report: when does content refresh impact appear?"
+    },
+    {
+     "p": 3,
+     "slug": "exp-03-word-count",
+     "status": "planned",
+     "ar": "تجربة: مقالات 800 كلمة مقابل 2500 كلمة",
+     "en": "Experiment: 800-word vs 2500-word posts"
+    },
+    {
+     "p": 4,
+     "slug": "exp-04-speed-bounce",
+     "status": "planned",
+     "ar": "تقرير: أثر السرعة على الارتداد بالأرقام",
+     "en": "Report: speed vs bounce rate with numbers"
+    },
+    {
+     "p": 5,
+     "slug": "exp-05-listicles",
+     "status": "planned",
+     "ar": "تجربة: القوائم المرقمة وأثرها على CTR",
+     "en": "Experiment: listicles and their CTR effect"
+    },
+    {
+     "p": 6,
+     "slug": "exp-06-video-sessions",
+     "status": "planned",
+     "ar": "تقرير: الفيديو المدمج ومدة الجلسة",
+     "en": "Report: embedded video and session duration"
+    },
+    {
+     "p": 7,
+     "slug": "exp-07-timing",
+     "status": "planned",
+     "ar": "تجربة: أوقات النشر — هل تهم فعلًا؟",
+     "en": "Experiment: publishing times — do they matter?"
+    },
+    {
+     "p": 8,
+     "slug": "exp-08-social",
+     "status": "planned",
+     "ar": "تقرير: واقع الزيارات من مواقع التواصل",
+     "en": "Report: the reality of social media traffic"
+    },
+    {
+     "p": 9,
+     "slug": "exp-09-newsletter",
+     "status": "planned",
+     "ar": "تجربة: النشرة البريدية وتكرار الزيارة",
+     "en": "Experiment: newsletter and return visits"
+    },
+    {
+     "p": 10,
+     "slug": "exp-10-domain-roi",
+     "status": "planned",
+     "ar": "تقرير: تكلفة الدومين مقابل عائده",
+     "en": "Report: domain cost vs return"
+    },
+    {
+     "p": 11,
+     "slug": "exp-11-refresh-10",
+     "status": "planned",
+     "ar": "تجربة: تحديث 10 مقالات قديمة في شهر",
+     "en": "Experiment: refreshing 10 old posts in a month"
+    },
+    {
+     "p": 12,
+     "slug": "exp-12-bilingual",
+     "status": "planned",
+     "ar": "تقرير: أداء المواقع ثنائية اللغة",
+     "en": "Report: bilingual site performance"
+    },
+    {
+     "p": 13,
+     "slug": "exp-13-seasonality",
+     "status": "planned",
+     "ar": "تقرير: موسمية أرباح الويب على مدار السنة",
+     "en": "Report: web earnings seasonality"
+    },
+    {
+     "p": 14,
+     "slug": "exp-14-devices",
+     "status": "planned",
+     "ar": "تقرير: جهاز الزائر وأثره على الأرباح",
+     "en": "Report: visitor device and revenue impact"
+    },
+    {
+     "p": 15,
+     "slug": "exp-15-faq",
+     "status": "planned",
+     "ar": "تجربة: صفحات الأسئلة الشائعة وأثرها",
+     "en": "Experiment: FAQ pages and their effect"
+    },
+    {
+     "p": 16,
+     "slug": "exp-16-depth",
+     "status": "planned",
+     "ar": "تقرير: الروابط الداخلية وعمق التصفح",
+     "en": "Report: internal links and browsing depth"
+    },
+    {
+     "p": 17,
+     "slug": "exp-17-lazy-ads",
+     "status": "planned",
+     "ar": "تجربة: تأجيل تحميل الإعلانات وأثره على INP",
+     "en": "Experiment: lazy ad loading and INP"
+    },
+    {
+     "p": 18,
+     "slug": "exp-18-visitor-quality",
+     "status": "planned",
+     "ar": "تقرير: جودة زائر البحث مقابل زائر التواصل",
+     "en": "Report: search vs social visitor quality"
+    },
+    {
+     "p": 19,
+     "slug": "exp-19-pruning",
+     "status": "planned",
+     "ar": "تجربة: حذف المحتوى الضعيف وأثره على الترتيب",
+     "en": "Experiment: pruning weak content and rankings"
+    },
+    {
+     "p": 20,
+     "slug": "exp-20-recap",
+     "status": "planned",
+     "ar": "تقرير ختامي: ما يستحق التكرار في السنة القادمة",
+     "en": "Final report: what deserves repeating next year"
+    }
+   ]
+  }
+ ]
+}
